@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Concert One', cursive;
+  background-color: #009b3a;
+}
+
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 6;
+  margin-bottom: 2rem;
+}
+
+.div1 h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #9DEFBC;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+img {
+    width: 4.5rem;
+    margin-right: 1.6rem;
+}
+
+.fa-arrow-right-arrow-left {
+    font-size: 3rem;
+    color: #fedf00;
+}
+
+button {
+    margin: 2rem 0 2rem 0;
+    border: transparent;
+    background: transparent;
+}
+
+.div2 {
+  grid-area: 2 / 2 / 4 / 5;
+  text-align: center;
+  margin-top: 1.6rem;
+}
+
+.div2 input {
+    border: 1px solid #eea508;
+    font-size: 1rem;
+    height: 2rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: #9DEFBC;
+    padding-left: 1rem;
+    color: #002776;
+}
+
+.div2 input::placeholder  {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.euro {
+    margin: 3rem 1rem 0rem 1rem;
+}
+
+.real {
+    margin: 0rem 1rem 2rem 1rem;
+}
+
+.egale {
+    display: flex;
+    margin: auto;
+    padding-top: 3rem;
+    color: #9DEFBC;
+}
+
+.somme {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2rem;
+}
+
+.fa-circle-question {
+    font-size: 2rem;
+    color: grey;
+    margin-left: 3rem;
+    color: #fedf00;
+}
+
+#resultRB, #resultEUR {
+    text-align: center;
+    font-size: 2rem;
+    color: #002776;
+}
+
+#resultRB {
+    margin-bottom: 1.5rem;
+}
+
+#resultEUR {
+    margin-top: 1.5rem;
+}

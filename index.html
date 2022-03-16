@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Convertisseur €/R$</title>
+</head>
+<body>
+
+    <div class="parent">
+        <div class="div1"> 
+            <div class="header">
+                <img src="./img/Capture d’écran 2022-03-16 à 17.26.37.png" alt="">
+                <h1>Switchey</h1>
+            </div> 
+        </div>
+
+        <div class="div2">
+            <div class="euro">
+                <p id="resultRB"></p>
+                <label for="valueEUR"></label>
+                <input type="number" id="valueEUR" minlength="1" maxlength="8" placeholder="Euro 🇪🇺">
+            </div>
+
+            <button id="btn">
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            </button>
+
+            <div class="real">
+                <label for="valueRB"></label>
+                <input type="number" id="valueRB" minlength="1" maxlength="8" placeholder="Réal 🇧🇷 ">  
+                <p id="resultEUR"></p>
+            </div>
+
+            <div class="egale">
+                <a href="https://www.boursorama.com/bourse/devises/taux-de-change-euro-réal-EUR-BRL/"><i class="fa-solid fa-circle-question"></i></a>
+                <div class="somme">
+                    <p>1 € = 5.64 R$</p>
+                    <p>1 R$ = 0.18 €</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
